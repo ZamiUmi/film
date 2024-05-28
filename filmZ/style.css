@@ -1,0 +1,176 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0e0e0; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; 
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+form.flex {
+  flex: 1;
+  max-width: 600px; 
+  display: flex; 
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+}
+
+button.search-btn {
+  padding: 10px;
+  background: #333;
+  border: none;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+button.search-btn i {
+  font-size: 16px;
+}
+
+button.random-btn {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background: #333;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.random-btn i {
+  font-size: 16px;
+}
+
+.genre-buttons {
+  margin: 20px 0;
+}
+
+button.genre {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background: #333;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.genre:hover {
+  background: #555;
+}
+
+.films {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; 
+}
+
+.film {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  width: 200px;
+}
+
+.film img {
+  width: 100%;
+  height: auto;
+}
+
+.film-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.film-info h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.film-info p {
+  color: #777;
+}
+
+.film:hover {
+  transform: scale(1.05);
+}
+
+.single-film {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.single-film h1 {
+  margin: 20px 0;
+}
+
+.single-film img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.single-film-info {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.single-film-info p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.main {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.main p {
+  color: #333;
+}
+
+.main ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main ul li {
+  background: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+  color: #555;
+}
